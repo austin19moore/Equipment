@@ -1,0 +1,37 @@
+server {
+        listen 443 ssl http2 default_server;
+        listen [::]:443 ssl http2 default_server;
+        include snippets/self-signed.conf;
+        include snippets/ssl-params.conf;
+        root /var/www/html;
+
+        index index.php api.php;
+
+        server_name WEB_ADRESS;
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+        location /api/ {
+                try_files $uri $uri/ /api/api.php?$args;
+        }
+
+        location ~ \.php$ {
+                root /var/www/html;
+                try_files $uri =404;
+                fastcgi_split_path_info ^(.+\.php)(/.+)$;
+                fastcgi_pass unix:/var/run/php/php8.1-fpm.sock;
+                fastcgi_index index.php;
+                fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+                include fastcgi_params;
+                fastcgi_read_timeout 300;
+        }
+
+}
+
+server {
+                listen 80 default_server;
+                listen [::]:80 default_server;
+                server_name WEB_ADRESS;
+                return 302 https://$server_name$request_uri;
+        }
