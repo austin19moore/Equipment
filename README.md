@@ -18,11 +18,11 @@ Web interface:
 ![image](https://github.com/austin19moore/Equipment/assets/80301847/70bcecb9-114d-4c5c-8dc3-ac3794e46d37)
 
 ![image](https://github.com/austin19moore/Equipment/assets/80301847/89273f1a-4ea8-4841-98ae-d5d42ac33682)
-
+</br>
 Database (PHPMyAdmin):
 
 ![image](https://github.com/austin19moore/Equipment/assets/80301847/b074c5bd-9c09-4b91-b0cc-be26f38c07d5)
-
+</br>
 API Requests:
 
 ![image](https://github.com/austin19moore/Equipment/assets/80301847/20373e4e-dc8f-4e2a-a3a5-8b917c3298a4)
