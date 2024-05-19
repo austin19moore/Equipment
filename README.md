@@ -14,4 +14,5 @@
 
 ![image](https://github.com/austin19moore/Equipment/assets/80301847/4baac807-fba2-4c7c-913c-fa2e88900ce2)
 
-![image](https://github.com/austin19moore/Equipment/assets/80301847/20da02c5-62e6-4351-b8d0-31cdb42b8455)
+![image](https://github.com/austin19moore/Equipment/assets/80301847/712d75a7-a8eb-43bd-a4a5-55479b8f6a1d)
+
