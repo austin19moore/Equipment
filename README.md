@@ -1,4 +1,4 @@
-# Equipment
+Equipment database, containing an API to perform CRUD operations on the server with the database, and another server containing a web interface that is enabled by calling requests to the API
  
 ![image](https://github.com/austin19moore/Equipment/assets/80301847/7cac11f5-873a-4cb1-8c12-91b6a474442a)
 
