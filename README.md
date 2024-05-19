@@ -1,4 +1,4 @@
-Equipment database, containing an API to perform CRUD operations on the server with the database, and another server containing a web interface that is enabled by calling requests to the API
+Equipment database, containing an API to perform CRUD operations on the server with the database, and a second server containing a web interface that is enabled by calling requests to the API
  
 ![image](https://github.com/austin19moore/Equipment/assets/80301847/7cac11f5-873a-4cb1-8c12-91b6a474442a)
 
@@ -15,4 +15,3 @@ Equipment database, containing an API to perform CRUD operations on the server w
 ![image](https://github.com/austin19moore/Equipment/assets/80301847/20373e4e-dc8f-4e2a-a3a5-8b917c3298a4)
 
 ![image](https://github.com/austin19moore/Equipment/assets/80301847/712d75a7-a8eb-43bd-a4a5-55479b8f6a1d)
-
