@@ -1,10 +1,10 @@
 --- Equipment database ---
 </br>
 SERVER One:
-An AWS Ec2 instance running nginx, MySQL, PHPMyAdmin, and an API to perform CRUD operations on the server on the database
+An AWS EC2 instance running nginx, MySQL, PHPMyAdmin, and an API to perform CRUD operations on the server on the database
 </br>
 SERVER Two:
-A second AWS instance running an nginx server, containing a web interface that is enabled by calling requests to the API
+A second AWS EC2 instance running an nginx server, containing a web interface built in PHP/HTML (CSS provided by bootstrap) that is enabled by calling requests to the API
 </br>
 </br>
 Web interface:
