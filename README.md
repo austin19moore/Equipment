@@ -1,4 +1,4 @@
-<h1>--- Equipment database ---</h1>
+<h1 align="center">--- Equipment database ---</h1>
 </br>
 <h2>SERVER One:</h2> </br>
 An AWS EC2 instance running nginx, MySQL, PHPMyAdmin, and an API to perform CRUD operations on the server on the database
