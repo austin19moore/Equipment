@@ -1,4 +1,12 @@
-Equipment database, containing an API to perform CRUD operations on the server with the database, and a second server containing a web interface that is enabled by calling requests to the API
+--- Equipment database ---
+SERVER One:
+An AWS Ec2 instance running nginx, MySQL, PHPMyAdmin, and an API to perform CRUD operations on the server on the database
+<br>
+SERVER Two:
+A second AWS instance running an nginx server, containing a web interface that is enabled by calling requests to the API
+<br>
+<br>
+Web interface:
  
 ![image](https://github.com/austin19moore/Equipment/assets/80301847/7cac11f5-873a-4cb1-8c12-91b6a474442a)
 
@@ -10,7 +18,11 @@ Equipment database, containing an API to perform CRUD operations on the server w
 
 ![image](https://github.com/austin19moore/Equipment/assets/80301847/89273f1a-4ea8-4841-98ae-d5d42ac33682)
 
+Database (PHPMyAdmin):
+
 ![image](https://github.com/austin19moore/Equipment/assets/80301847/b074c5bd-9c09-4b91-b0cc-be26f38c07d5)
+
+API Requests:
 
 ![image](https://github.com/austin19moore/Equipment/assets/80301847/20373e4e-dc8f-4e2a-a3a5-8b917c3298a4)
 
